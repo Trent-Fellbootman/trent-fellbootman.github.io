@@ -1,0 +1,68 @@
+body {
+    background-color: #111;
+    color: #eee;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #eee;
+    font-weight: bold;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+
+a {
+    color: #38a1f3;
+    text-decoration: none;
+}
+
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+    background-color: #38a1f3;
+    color: #eee;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+
+
+button:hover,
+input[type="button"]:hover,
+input[type="reset"]:hover,
+input[type="submit"]:hover {
+    background-color: #0077cc;
+}
+
+
+input[type="text"],
+input[type="email"],
+textarea {
+    border: 1px solid #eee;
+    padding: 0.5rem;
+}
+
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+    outline: none;
+    border-color: #38a1f3;
+    box-shadow: 0 0 3px #38a1f3;
+}
